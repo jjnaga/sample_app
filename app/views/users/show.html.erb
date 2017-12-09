@@ -1,0 +1,15 @@
+  <!-- def show
+    @user = User.find(params[:id])
+  end -->
+
+<!-- provide is like setting a variable, we can then call :title to get our data. -->
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+      </h1>
+    </section>
+  </aside>
+</div>
