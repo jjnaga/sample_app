@@ -1,0 +1,6 @@
+ch 7 - serach " and then render the signup"
+
+Did: Made a form, and styled it with css. 
+
+Do: Form submits to /users#POST, need to create relavent controller/view.
+
